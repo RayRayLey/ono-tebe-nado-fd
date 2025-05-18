@@ -1,1 +1,172 @@
 /* место для вашего кода */
+
+:root {
+  --primary-color: white;
+  --accent-color: black;
+}
+
+/* шапка */
+.header {
+  color: var(--accent-color);
+}
+
+.header__menu {
+}
+
+.header__links-list {
+}
+
+.header__links-list-item_no-bullit {
+}
+
+.header__links-list-item {
+}
+
+.header__link {
+}
+
+.header__logo {
+}
+
+.header__logo-image {
+}
+
+.address {
+}
+
+.header__address {
+}
+
+/* первая секция */
+
+.cover {
+  background-image: url("/images/cover.jpg");
+  color: var(--primary-color);
+}
+
+.overlay {
+}
+
+.cover__title {
+}
+
+.aligned-text {
+}
+
+.aligned-text_center {
+}
+
+.aligned-text_right {
+}
+
+.cover__description {
+}
+
+.cover__description-text {
+}
+
+.letter-spacing-extended {
+}
+
+.no-letter-spacing {
+}
+
+.bet-button {
+}
+
+/* вторая секция */
+
+.lots {
+}
+
+.lots__heading {
+  color: var(--accent-color);
+}
+
+.lots__card-list {
+}
+
+.lots__card-list-item {
+}
+
+.card-link {
+}
+
+.card {
+  color: var(--primary-color);
+}
+
+.card_type_film {
+  background-image: url("/images/card-lot-01.jpg");
+}
+
+.card_type_book {
+  background-image: url("/images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("/images/card-lot-03.jpg");
+}
+
+.card__title {
+}
+
+.card__text {
+}
+
+.lots__look-more-link {
+}
+
+/* третья секция */
+
+.about {
+  color: var(--accent-color);
+}
+
+.about__column {
+}
+
+.about__logo {
+}
+
+.about__logo-image {
+}
+
+.about__title {
+}
+
+.about__text {
+}
+
+/* футер*/
+
+.footer {
+  color: var(--accent-color);
+}
+
+.footer__menu {
+}
+
+.footer__menu-list {
+}
+
+.footer__menu-list-item {
+}
+
+.footer__menu-link {
+}
+
+.footer__menu-link_active {
+}
+
+.footer__social-list {
+}
+
+.footer__social-list-item {
+}
+
+.footer__social-link {
+}
+
+.footer__social-icon {
+}
