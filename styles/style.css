@@ -46,9 +46,6 @@
   min-width: 135px;
 }
 
-/*.header__logo-image {
-}*/
-
 .address {
   font-size: 18px;
   line-height: 24.3px;
@@ -125,9 +122,6 @@
 .cover__description-text {
   word-spacing: 0.85em;
 }
-
-/*.letter-spacing-extended {
-}*/
 
 .no-letter-spacing {
   margin-right: -0.3em;
@@ -238,9 +232,6 @@
   padding-bottom: 180px;
 }
 
-/*.about__column {
-}*/
-
 .about__logo {
   margin: 0 auto;
   background-color: var(--accent-color);
@@ -318,12 +309,6 @@
   gap: 48px;
   justify-content: end;
 }
-
-/*.footer__social-list-item {
-}
-
-.footer__social-link {
-}*/
 
 .footer__social-icon {
   max-width: 48px;
