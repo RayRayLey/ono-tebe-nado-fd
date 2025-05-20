@@ -44,8 +44,8 @@
   min-width: 135px;
 }
 
-.header__logo-image {
-}
+/*.header__logo-image {
+}*/
 
 .address {
   font-size: 18px;
@@ -124,8 +124,8 @@
   word-spacing: 0.85em;
 }
 
-.letter-spacing-extended {
-}
+/*.letter-spacing-extended {
+}*/
 
 .no-letter-spacing {
   margin-right: -0.3em;
@@ -236,8 +236,8 @@
   padding-bottom: 180px;
 }
 
-.about__column {
-}
+/*.about__column {
+}*/
 
 .about__logo {
   margin: 0 auto;
@@ -317,11 +317,11 @@
   justify-content: end;
 }
 
-.footer__social-list-item {
+/*.footer__social-list-item {
 }
 
 .footer__social-link {
-}
+}*/
 
 .footer__social-icon {
   max-width: 48px;
