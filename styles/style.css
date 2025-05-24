@@ -61,8 +61,8 @@
 
 .cover {
   position: relative;
-  z-index: -1;
-  background-image: url("/images/cover.jpg");
+  z-index: 0;
+  background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
   color: var(--primary-color);
@@ -71,7 +71,7 @@
 
 .overlay {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   top: 0;
   left: 0;
   background-color: var(--accent-color);
@@ -82,12 +82,13 @@
 
 .cover__title {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding-top: 165px;
   font-size: 100px;
   line-height: 115px;
   font-weight: 700;
   letter-spacing: 0.3em;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -108,7 +109,7 @@
 
 .cover__description {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
   gap: 106px;
@@ -128,7 +129,7 @@
 }
 
 .bet-button {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 22px;
   line-height: 22px;
@@ -137,6 +138,7 @@
   background: transparent;
   border: 1px solid var(--primary-color);
   padding: 13px 31px;
+  cursor: pointer;
 }
 
 /* вторая секция */
@@ -155,20 +157,22 @@
 }
 
 .lots__card-list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   list-style: none;
 }
 
 .lots__card-list-item {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   width: 334px;
   min-height: 596px;
 }
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -183,20 +187,20 @@
 }
 
 .card_type_film {
-  background-image: url("/images/card-lot-01.jpg");
+  background-image: url('../images/card-lot-01.jpg');
 }
 
 .card_type_book {
-  background-image: url("/images/card-lot-02.jpg");
+  background-image: url('../images/card-lot-02.jpg');
 }
 
 .card_type_picture {
-  background-image: url("/images/card-lot-03.jpg");
+  background-image: url('../images/card-lot-03.jpg');
 }
 
 .card__title {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   font-size: 22px;
   line-height: 24.6px;
   font-weight: 700;
@@ -206,7 +210,7 @@
 
 .card__text {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
@@ -229,13 +233,13 @@
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 24px;
-  padding-bottom: 180px;
+  padding-bottom: 156px;
 }
 
 .about__logo {
   margin: 0 auto;
   background-color: var(--accent-color);
-  border-radius: 100%;
+  border-radius: 50%;
   width: 240px;
   height: 240px;
   display: flex;
